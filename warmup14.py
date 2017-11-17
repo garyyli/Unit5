@@ -3,4 +3,4 @@
 #warmup14
 
 name = input('Enter your name: ').split()
-print('Your initials are',name[0][0],name[1][0])
+print('Your initials are',name[0][0]+name[1][0])
