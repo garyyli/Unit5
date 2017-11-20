@@ -25,7 +25,7 @@ if __name__ == '__main__':
     data = {}
     data['antList'] = []
     
-    for i in range(1000):
+    for i in range(10):
         data['antList'].append(Sprite(ant,(randint(1,WIDTH),randint(1,HEIGHT))))
 
     
