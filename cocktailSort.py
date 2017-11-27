@@ -30,7 +30,7 @@ N = 100 #how many numbers will be sorted
   while swapped // if no elements have been swapped, then the list is sorted
 end procedure'''
 
-def mySort(L):
+def mySort(A):
     swapped = True
     while swapped:
         swapped = False
@@ -41,12 +41,12 @@ def mySort(L):
         if not swapped:
             break
         swapped = False
-        for i in range(len(A)-2,-1,-1)
-        if A[i] > A[i+1]:
+        for i in range(len(A)-2,-1,-1):
+            if A[i] > A[i+1]:
                 A[i],A[i+1] = A[i+1],A[i] #swap numbers
                 swapped = True
         
-    return L
+    return A
 
 if __name__ == '__main__':
     
