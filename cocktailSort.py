@@ -37,7 +37,14 @@ def mySort(L):
         for i in range(0,len(A)-1):
             if A[i] > A[i+1]:
                 A[i],A[i+1] = A[i+1],A[i] #swap numbers
-                
+                swapped = True
+        if not swapped:
+            break
+        swapped = False
+        for i in range(len(A)-2,-1,-1)
+        if A[i] > A[i+1]:
+                A[i],A[i+1] = A[i+1],A[i] #swap numbers
+                swapped = True
         
     return L
 
