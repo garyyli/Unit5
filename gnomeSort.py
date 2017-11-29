@@ -17,7 +17,14 @@ N = 100 #how many numbers will be sorted
             pos := pos - 1'''
 
 def mySort(A):
-
+    pos = 0
+    while pos<len(A):
+        if pos==0 or A[pos] >= A[pos-1]):
+            pos = pos +1
+        else:
+            A[pos],A[pos-1] = A[pos-1],A[pos]
+            pos = pos-1
+            
     return A
 
 if __name__ == '__main__':
