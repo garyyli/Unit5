@@ -18,8 +18,14 @@ while i < length(A)
 end while'''
 
 def mySort(A):
-    
-        
+    i=1
+    while i<len(A):
+        j=i
+        while j>0 and A[j-1]>A[j]:
+            A[j],A[j-1] = A[j-1],A[j]
+            j = j-1
+        i=i+1
+
     return A
 
 if __name__ == '__main__':
