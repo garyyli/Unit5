@@ -19,7 +19,7 @@ N = 100 #how many numbers will be sorted
 def mySort(A):
     pos = 0
     while pos<len(A):
-        if pos==0 or A[pos] >= A[pos-1]):
+        if pos==0 or A[pos] >= A[pos-1]:
             pos = pos +1
         else:
             A[pos],A[pos-1] = A[pos-1],A[pos]
