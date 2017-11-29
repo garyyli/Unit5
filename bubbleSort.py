@@ -28,7 +28,7 @@ def mySort(A):
     swapped = True
     while swapped:
         swapped = False
-        for i in range(1,n-1):
+        for i in range(1,n):
             if A[i-1]>A[i]:
                 A[i],A[i-1] = A[i-1],A[i]
                 swapped = True
@@ -55,4 +55,3 @@ if __name__ == '__main__':
         print('Your sort took', t2-t1, 'seconds')
     except:
         print('Your sort did not work')
-
