@@ -3,7 +3,7 @@
 #warmup15.py
 
 def double(x):
-    output = []
+    answer = []
     for i in x:
         answer.append(i*2)
     return answer
