@@ -8,4 +8,4 @@ def double(x):
         answer.append(i*2)
     return answer
 
-print(double([3,4,5]))
+print(double([7,4,5]))
