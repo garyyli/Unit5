@@ -4,7 +4,6 @@
 
 from random import randint
 
-randomInt = randint(1,100)
 def rand5():
     numbers = []
     for i in range(0,5):
@@ -12,5 +11,13 @@ def rand5():
         numbers.append(randomInt)
     return numbers
 
-print(rand5())
+def biggest(help):
+    help.sort()
+    return help[-1]
+    
+def lastElement(rip):
+    return rip[-1]
 
+print(rand5())
+print(biggest([3,-1,5,-2,7,2,1]))
+print(lastElement(['cat','dog','rat']))
